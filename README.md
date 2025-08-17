@@ -1,4 +1,4 @@
-# Cisco Network Topology Generation and Simulation Tool created by Saurabh Singh
+# Cisco Network Topology Generation and Simulation Tool Created by Saurabh Singh
 
 A comprehensive Python tool for automatic network topology generation, configuration validation, and network simulation based on Cisco router configuration files.
 
