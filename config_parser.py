@@ -315,7 +315,7 @@ class ConfigParser:
         # Parse BGP
         bgp_pattern = r'router bgp\s+(\d+)(.*?)(?=^router\s+|\Z)'
         bgp_matches = re.finditer(bgp_pattern, config_text, 
-                                Re.MULTILINE | re.DOTALL | re.IGNORECASE)
+                                re.MULTILINE | re.DOTALL | re.IGNORECASE)
         
         for match in bgp_matches:
             as_number = match.group(1)
