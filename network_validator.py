@@ -16,6 +16,8 @@ import ipaddress
 import re
 import json
 import yaml
+from pathlib import Path
+
 
 from config_parser import RouterConfig, Interface, VLANConfig
 
